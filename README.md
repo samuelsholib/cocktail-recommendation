@@ -89,4 +89,4 @@ _if encountered conflicts with merge - after successful resolution, do another g
 
 ## Github Deployed Application
 
-[https://jonkhunkle.github.io/Project-1/](https://jonkhunkle.github.io/Project-1/)
+https://samuelsholib.github.io/project-one/
