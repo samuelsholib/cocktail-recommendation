@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
+body {
+  font-family: "Mukta", sans-serif;
+}
+
+body header {
+  text-align: center;
+}
+
+body input {
+  font-family: "Mukta", sans-serif;
+}
+
+body #error {
+  color: red;
+}
+
+body .carouselHeading {
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    margin-left: 0%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

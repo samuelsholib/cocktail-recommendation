@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinema and Cocktail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Movies and Cocktails</h1>
+      </header>
+      <div class="row">
+        <div class="col m3">
+          <form id="searchMovie">
+            <label for="userQuery">What movie to Search?</label>
+            <input type="text" id="userQuery" placeholder="Movie title here" required />
+            <button type="submit" class="btn" id="searchBtn">Search</button>
+          </form>
+          <div id="error"></div>
+          <div id="searchHistory" class="row">
+            <h5>Search History</h5>
+            <ul id="searchList"></ul>
+          </div>
+        </div>
+
+        <div class="col m9 moviesAndDrinks">
+          <div class="col s12" id="movieTitle"></div>
+          <div class="col l5" id="moviePoster"></div>
+          <div class="col l7" id="movieInfo"></div>
+          <div class="col m9" id="drinkHeading"></div>
+          <div class="carousel"></div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+  </body>
+</html>
